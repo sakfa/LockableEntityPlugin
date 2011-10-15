@@ -1,0 +1,12 @@
+TestTable:
+  rec1:
+    name: rekord 1
+  rec2:
+    name: rekord 2
+User:
+  user1:
+    login: sakfa
+  user2:
+    login: razel
+  user3:
+    login: stefan

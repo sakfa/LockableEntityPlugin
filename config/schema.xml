@@ -1,0 +1,17 @@
+<database name="propel" defaultIdMethod="native"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://xsd.propelorm.org/1.6/database.xsd" >
+
+      <table name="user">
+        <column name="id" type="INTEGER" autoIncrement="true" primaryKey="true" />
+        <column name="login" type="VARCHAR" size="255" primaryString="true"/>            
+      </table>
+
+      <table name="test_table">
+        <column name="id" type="INTEGER" autoIncrement="true" primaryKey="true" />
+        <column name="name" type="VARCHAR" size="50" primaryString="true" />
+        
+        <behavior name="lockable_entity" />
+      </table>
+      
+</database>
